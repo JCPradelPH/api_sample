@@ -70,7 +70,7 @@ class DioInstance {
     DioException error,
     ErrorInterceptorHandler handler,
   ) async {
-
+    
     handler.next(error);
   }
 }
